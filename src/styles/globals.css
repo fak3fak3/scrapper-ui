@@ -1,0 +1,11 @@
+@tailwind utilities;
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+    --background: white;
+    --background-gray: #000;
+}
