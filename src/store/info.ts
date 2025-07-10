@@ -16,7 +16,7 @@ export type ScrappingProcessData = {
 };
 
 export function connectPrescrappingSocket() {
-    const socket = new WebSocket("ws://localhost:8080/api/ws/progress");
+    const socket = new WebSocket("ws://158.160.193.30:8080/api/ws/progress");
 
     socket.onmessage = (event) => {
         try {
